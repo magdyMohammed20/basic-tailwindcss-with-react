@@ -1,0 +1,3 @@
+.para {
+  @apply text-slate-600 text-[16px] md:text-lg text-center mt-8 w-full md:w-2/3 mx-auto;
+}

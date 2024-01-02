@@ -1,0 +1,27 @@
+.inner_parent {
+  @apply relative space-y-8 py-12 p-8;
+}
+
+.group {
+  @apply relative bg-gray-800 transition hover:z-[1];
+}
+
+.group_header {
+  @apply text-xl font-semibold text-white transition;
+}
+
+.read_more_link {
+  @apply group-hover:text-orange-400 transition-all duration-300 ease-linear;
+}
+
+.read_more_arrow {
+  @apply text-orange-400 -translate-x-3 group-hover:translate-x-0 transition-all duration-200 ease-linear opacity-0 group-hover:opacity-100;
+}
+
+.img_style {
+  @apply w-12 h-12 rounded-full;
+}
+
+.flex_con {
+  @apply flex justify-between;
+}

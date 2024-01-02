@@ -1,0 +1,15 @@
+.svg {
+  @apply w-6 h-6  text-yellow-600;
+}
+
+.header {
+  @apply text-lg lg:text-4xl my-8 text-white;
+}
+
+.text {
+  @apply text-[14px] text-slate-500 lg:w-1/2 w-full;
+}
+
+.group_parent {
+  @apply mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden  rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4;
+}

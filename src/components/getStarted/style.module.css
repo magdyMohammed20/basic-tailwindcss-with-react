@@ -1,0 +1,3 @@
+.header {
+  @apply text-lg lg:text-5xl font-extrabold text-center text-white tracking-wide my-8;
+}

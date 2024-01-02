@@ -1,0 +1,7 @@
+.img_container {
+  @apply grid  sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 items-center  justify-items-center;
+}
+
+.img_style {
+  @apply grayscale w-full h-full hover:grayscale-0 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer;
+}
