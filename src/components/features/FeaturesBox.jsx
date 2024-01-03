@@ -5,7 +5,9 @@ import PropTypes from "prop-types";
 const FeaturesBox = ({ title }) => {
   return (
     <div className={styles.box_style}>
-      <h1 className={styles.title}>{title}</h1>
+      <h1 className={`${styles.title} dark:text-white text-slate-800`}>
+        {title}
+      </h1>
       <p className={styles.desc}>Some text here</p>
     </div>
   );

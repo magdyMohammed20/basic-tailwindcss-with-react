@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply lg:text-xl text-white;
+  @apply lg:text-xl;
 }
 
 .desc {

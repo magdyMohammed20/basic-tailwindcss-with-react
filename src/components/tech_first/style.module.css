@@ -3,7 +3,7 @@
 }
 
 .header {
-  @apply text-lg lg:text-4xl my-8 text-white;
+  @apply text-lg lg:text-4xl my-8;
 }
 
 .text {

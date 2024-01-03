@@ -22,7 +22,7 @@ const Card = ({ card: { src, title, desc } }) => {
         </p>
         <a
           href="#"
-          className="inline-flex items-center  py-2  font-medium text-center text-blue-300 text-[14px]">
+          className="inline-flex items-center  py-2  font-medium text-center dark:text-blue-300 text-blue-600 text-[14px]">
           Read more
         </a>
       </div>

@@ -96,7 +96,9 @@ const Fans = () => {
   ));
   return (
     <div className="main-container py-24 px-32">
-      <h1 className={styles.header}>We have some fans.</h1>
+      <h1 className={`${styles.header} dark:text-white text-slate-950`}>
+        We have some fans.
+      </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-x-8 gap-y-6  ">
         <div className="grid grid-cols-1  gap-x-8 gap-y-6  pt-20">

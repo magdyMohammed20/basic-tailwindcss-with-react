@@ -3,7 +3,7 @@
 }
 
 .header {
-  @apply text-5xl text-white text-[30px] lg:text-6xl;
+  @apply text-5xl  text-[30px] lg:text-6xl;
 }
 
 .para {
@@ -19,7 +19,7 @@
 }
 
 .second_btn {
-  @apply bg-white text-slate-950 h-10 lg:h-auto px-4 lg:px-8 py-0 lg:py-3  text-[12px] lg:text-base rounded-full focus:ring-4 focus:ring-gray-700 transition-all duration-300 hover:bg-black hover:text-white;
+  @apply h-10 lg:h-auto px-4 lg:px-8 py-0 lg:py-3  text-[12px] lg:text-base rounded-full focus:ring-4 focus:ring-gray-700 transition-all duration-300;
 }
 
 .img_container {

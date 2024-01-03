@@ -3,7 +3,7 @@ const Footer = () => {
   const mapLinks = links.map((link) => (
     <li
       key={link.id}
-      className="text-slate-400 mt-6 hover:text-indigo-500 transition-all duration-100 ease-linear">
+      className="dark:text-slate-400 mt-6 hover:text-indigo-500 transition-all duration-100 ease-linear">
       <a href="#">{link.name}</a>
     </li>
   ));
@@ -11,7 +11,7 @@ const Footer = () => {
   const socials = social.map((link) => (
     <li
       key={link.id}
-      className="text-slate-400 mt-6 hover:text-indigo-500 transition-all duration-100 ease-linear flex items-center gap-2">
+      className="dark:text-slate-400 mt-6 hover:text-indigo-500 transition-all duration-100 ease-linear flex items-center gap-2">
       {link.icon}
       <a href="#">{link.name}</a>
     </li>
@@ -28,19 +28,19 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 md:mt-0">
-          <div className="text-slate-500">
+          <div className="dark:text-slate-500">
             <p>We change the way UI components librairies are used</p>
             <p className="my-6">Tailus Blocks ©</p>
           </div>
 
-          <div className="text-white flex items-center gap-9">
+          <div className="dark:text-white flex items-center gap-9">
             <a href="">Terms Of Service</a>
             <a href="">Privacy</a>
           </div>
 
           <div className="flex items-center gap-3  mt-6">
-            <span className="text-gray-400">Need help?</span>
-            <a href="" className="text-white">
+            <span className="dark:text-gray-400">Need help?</span>
+            <a href="" className="dark:text-white">
               Contact Us
             </a>
           </div>

@@ -3,11 +3,11 @@
 }
 
 .header {
-  @apply text-lg lg:text-3xl my-8 text-white font-bold tracking-wide;
+  @apply text-lg lg:text-3xl my-8  font-bold tracking-wide;
 }
 
 .text {
-  @apply text-[14px] text-slate-400 w-full lg:w-4/5;
+  @apply text-[14px]  w-full lg:w-4/5;
 }
 
 .grid_container {
@@ -15,5 +15,5 @@
 }
 
 .icon_style_blue {
-  @apply bg-blue-200 bg-opacity-15 h-12 w-12 flex items-center justify-center rounded-full;
+  @apply h-12 w-12 flex items-center justify-center rounded-full;
 }

@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="font-loader bg-gradient-to-r from-slate-900 via-slate-800 via-slate-900 to-slate-950">
+    <div className="font-loader bg-gradient-to-r dark:from-slate-900 dark:via-slate-800 dark:via-slate-900 dark:to-slate-950                from-gray-100 via-gray-200 via-gray-300 to-gray-400 ">
       <Navbar />
       <Home />
       <Features />

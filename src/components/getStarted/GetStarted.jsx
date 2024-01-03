@@ -24,7 +24,7 @@ const GetStarted = () => {
         <img src={thirdImg} className="md:w-14 md:h-14 w-8 h-8 rounded-full" />
       </div>
       <div className="text-center">
-        <h1 className={styles.header}>Get Started now</h1>
+        <h1 className={`${styles.header} dark:text-white`}>Get Started now</h1>
         <p className="text-slate-600 text-sm md:text-xl">
           Be part of millions people around the world using tailus in modern
           User Interfaces.

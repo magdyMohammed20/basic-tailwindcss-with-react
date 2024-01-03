@@ -5,7 +5,9 @@ const Home = () => {
       <div className={`${styles.hero} flex items-center justify-between`}>
         <div className="w-full lg:w-1/2 ">
           <h1 className={styles.span}>Be With Us</h1>
-          <h1 className={styles.header}>Shaping a world with reimagination.</h1>
+          <h1 className={`${styles.header} text-slate-700 dark:text-white`}>
+            Shaping a world with reimagination.
+          </h1>
           <p className={styles.para}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             possimus aliquid fuga praesentium enim, commodi aut deleniti,
@@ -15,7 +17,10 @@ const Home = () => {
           </p>
           <div className={styles.btn_container}>
             <button className={styles.first_btn}>Get Started</button>
-            <button className={styles.second_btn}>About Me</button>
+            <button
+              className={`${styles.second_btn} dark:bg-white dark:text-slate-950 bg-black text-white  hover:bg-black hover:text-white`}>
+              About Me
+            </button>
           </div>
         </div>
         <div className={styles.img_container}>

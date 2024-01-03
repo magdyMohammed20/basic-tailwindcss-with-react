@@ -2,6 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import styles from "./nav.module.css";
 
 const Navbar = () => {
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme")
+      ? JSON.parse(localStorage.getItem("theme"))
+      : true
+  );
   const [links] = useState(["features", "solutions", "reviews", "premium"]);
   const [toggle, setToggle] = useState(false);
   const headerRef = useRef();
@@ -10,23 +15,35 @@ const Navbar = () => {
     setToggle(!toggle);
   };
 
+  const toggleTheme = () => {
+    setTheme(!theme);
+    localStorage.setItem("theme", JSON.stringify(!theme));
+  };
+
+  useEffect(() => {
+    if (!theme) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
   useEffect(() => {
     const handleScroll = () => {
       if (headerRef.current) {
         if (window.scrollY > 100) {
-          headerRef.current.style.backgroundColor = "#0a0f1c";
+          //headerRef.current.style.backgroundColor = "#0a0f1c";
           headerRef.current.className =
-            "h-18 shadow-sm border-gray-400 shadow-slate-800  sticky w-full top-0 z-50 transition-all duration-500 linear";
+            "h-18 shadow-sm border-gray-400 shadow-slate-800  sticky w-full top-0 z-50 transition-all duration-500 linear dark:bg-mobColor bg-white";
         }
         if (window.scrollY < 50) {
           headerRef.current.classList.remove(
             "shadow-sm",
             "shadow-slate-800",
-            "shadow-xl",
             "border-gray-400",
             "sticky"
           );
-          headerRef.current.style.backgroundColor = "transparent";
+          // headerRef.current.style.backgroundColor = "transparent";
         }
       }
     };
@@ -39,10 +56,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={styles.headerStyle} ref={headerRef}>
+    <header
+      className={`${styles.headerStyle} dark:bg-mobColor bg-white`}
+      ref={headerRef}>
       <div className={styles.navContainer}>
         <div>
-          <a href="#" className={styles.logo}>
+          <a
+            href="#"
+            className={`${styles.logo} dark:text-white text-slate-900`}>
             <span className={styles.logoText}>A</span>strolus
           </a>
         </div>
@@ -50,12 +71,28 @@ const Navbar = () => {
           <ul className={styles.ulList}>
             {links.map((link, index) => (
               <li key={index}>
-                <a href={`/${link}`} className={styles.navLink}>
+                <a
+                  href={`/${link}`}
+                  className={`${styles.navLink} dark:text-gray-200 dark:hover:text-white text-slate-900 hover:text-slate-900`}>
                   {link}
                 </a>
               </li>
             ))}
           </ul>
+
+          <label className="relative inline-flex items-center  cursor-pointer">
+            <input
+              type="checkbox"
+              value={theme}
+              className="sr-only peer"
+              onChange={toggleTheme}
+              checked={theme}
+            />
+            <div className="w-11 h-6 flex items-center bg-gray-400 peer-focus:outline-none    rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all ">
+              <span>☀️</span>
+              <span>🌙</span>
+            </div>
+          </label>
           <button className={styles.navBtn}>Get Started</button>
 
           <div className="sm:hidden">

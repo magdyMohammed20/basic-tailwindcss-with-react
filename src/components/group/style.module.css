@@ -3,7 +3,7 @@
 }
 
 .group {
-  @apply relative bg-gray-800 transition hover:z-[1];
+  @apply relative  transition hover:z-[1];
 }
 
 .group_header {
@@ -11,11 +11,11 @@
 }
 
 .read_more_link {
-  @apply group-hover:text-orange-400 transition-all duration-300 ease-linear;
+  @apply transition-all duration-300 ease-linear;
 }
 
 .read_more_arrow {
-  @apply text-orange-400 -translate-x-3 group-hover:translate-x-0 transition-all duration-200 ease-linear opacity-0 group-hover:opacity-100;
+  @apply -translate-x-3 group-hover:translate-x-0 transition-all duration-200 ease-linear opacity-0 group-hover:opacity-100;
 }
 
 .img_style {

@@ -6,7 +6,7 @@ const Articles = () => {
   const mapCards = cardsData.map((card) => <Card key={card.id} card={card} />);
   return (
     <div className="main-container md:py-24 md:px-32 px-28">
-      <h1 className="header text-2xl md:text-4xl font-extrabold tracking-wider">
+      <h1 className="header text-2xl md:text-4xl font-extrabold tracking-wider dark:text-white text-black">
         Latest Articles
       </h1>
       <p className={styles.para}>
