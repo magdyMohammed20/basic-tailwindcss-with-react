@@ -22,9 +22,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (!theme) {
-      document.documentElement.classList.add("dark");
+      document.body.classList.add("dark");
     } else {
-      document.documentElement.classList.remove("dark");
+      document.body.classList.remove("dark");
     }
   }, [theme]);
 
@@ -80,17 +80,17 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <label className="relative inline-flex items-center  cursor-pointer">
+          <label className="relative inline-flex items-center  cursor-pointer select-none">
             <input
               type="checkbox"
               value={theme}
-              className="sr-only peer"
+              className="sr-only peer select-none"
               onChange={toggleTheme}
               checked={theme}
             />
-            <div className="w-11 h-6 flex items-center bg-gray-400 peer-focus:outline-none    rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all ">
-              <span>☀️</span>
-              <span>🌙</span>
+            <div className="w-11 h-6 flex items-center bg-gray-400 peer-focus:outline-none select-none    rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all ">
+              <span className="select-none ">☀️</span>
+              <span className="select-none">🌙</span>
             </div>
           </label>
           <button className={styles.navBtn}>Get Started</button>

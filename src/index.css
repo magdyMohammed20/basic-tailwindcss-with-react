@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body * {
+  @apply transition-colors duration-1000;
+}
+
 @layer {
   .main-container {
     @apply container mx-auto px-4;
