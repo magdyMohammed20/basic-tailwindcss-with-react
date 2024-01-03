@@ -1,0 +1,19 @@
+.box_style {
+  @apply mt-8 lg:mt-0 flex justify-center flex-col text-center lg:text-left;
+}
+
+.title {
+  @apply lg:text-xl text-white;
+}
+
+.desc {
+  @apply text-[14px] text-gray-400 mt-4 font-normal;
+}
+
+.inner_container {
+  @apply lg:w-3/5 mx-auto lg:border-t border-0 lg:border-b lg:border-gray-700 py-0  lg:py-8;
+}
+
+.features_container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:justify-items-start  px-6;
+}

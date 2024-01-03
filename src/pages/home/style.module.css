@@ -1,3 +1,31 @@
 .hero {
   min-height: calc(100vh - 84px);
 }
+
+.header {
+  @apply text-5xl text-white text-[30px] lg:text-6xl;
+}
+
+.para {
+  @apply mt-10 text-gray-400 text-sm lg:text-[15px] leading-7;
+}
+
+.btn_container {
+  @apply mt-12 flex gap-4;
+}
+
+.first_btn {
+  @apply bg-indigo-600 text-gray-100 h-10 lg:h-auto px-4 lg:px-8 py-0 lg:py-3  text-[12px] lg:text-base  rounded-full focus:ring-4 focus:ring-indigo-500 transition-all duration-300;
+}
+
+.second_btn {
+  @apply bg-white text-slate-950 h-10 lg:h-auto px-4 lg:px-8 py-0 lg:py-3  text-[12px] lg:text-base rounded-full focus:ring-4 focus:ring-gray-700 transition-all duration-300 hover:bg-black hover:text-white;
+}
+
+.img_container {
+  @apply w-1/2 justify-end hidden lg:flex;
+}
+
+.span {
+  @apply text-sm lg:text-xl text-gray-300 mb-8 text-blue-400;
+}

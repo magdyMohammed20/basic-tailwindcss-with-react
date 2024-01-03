@@ -1,6 +1,6 @@
 import { useState } from "react";
 import FeaturesBox from "./FeaturesBox";
-
+import styles from "./style.module.css";
 const Features = () => {
   const [features] = useState([
     { id: 1, title: "The lowest price" },
@@ -13,10 +13,8 @@ const Features = () => {
   ));
   return (
     <div className="main-container">
-      <div className="lg:w-3/5 mx-auto lg:border-t border-0 lg:border-b lg:border-gray-700  lg:py-8 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:justify-items-start  px-6">
-          {mapFeatures}
-        </div>
+      <div className={styles.inner_container}>
+        <div className={styles.features_container}>{mapFeatures}</div>
       </div>
     </div>
   );
