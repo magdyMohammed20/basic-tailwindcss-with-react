@@ -10,7 +10,7 @@ const Navbar = () => {
   const [links] = useState(["features", "solutions", "reviews", "premium"]);
   const [toggle, setToggle] = useState(false);
   const headerRef = useRef();
-
+  const stylesAll = `${styles.link}  dark:text-gray-400  dark:hover:bg-gray-100 hover:bg-slate-900 dark:md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-300 md:dark:hover:text-blue-500 dark:hover:bg-slate-800 dark:hover:text-white hover:text-white`;
   const handleOpenSidebar = () => {
     setToggle(!toggle);
   };
@@ -80,7 +80,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <label className="relative inline-flex items-center  cursor-pointer select-none">
+          <label className="relative lg:inline-flex items-center  cursor-pointer select-none hidden">
             <input
               type="checkbox"
               value={theme}
@@ -95,7 +95,21 @@ const Navbar = () => {
           </label>
           <button className={styles.navBtn}>Get Started</button>
 
-          <div className="sm:hidden">
+          <div className="sm:hidden flex items-center gap-3">
+            <label className="relative lg:hidden items-center  cursor-pointer select-none flex">
+              <input
+                type="checkbox"
+                value={theme}
+                className="sr-only peer select-none"
+                onChange={toggleTheme}
+                checked={theme}
+              />
+              <div className="w-11 h-6 flex items-center bg-gray-400 peer-focus:outline-none select-none    rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all ">
+                <span className="select-none ">☀️</span>
+                <span className="select-none">🌙</span>
+              </div>
+            </label>
+
             <button
               className="relative group"
               onClick={() => handleOpenSidebar()}
@@ -122,7 +136,7 @@ const Navbar = () => {
             <div
               className={`fixed transition-all duration-300 ease-in-out ${
                 !toggle ? "-left-full" : "left-0"
-              } top-0 bottom-0 block md:hidden w-[300px] h-screen bg-sideNav`}
+              } top-0 bottom-0 block md:hidden w-[300px] h-screen dark:bg-sideNav bg-white`}
               id="navbar-default">
               <ul className="font-medium flex flex-col md:p-0 md:flex-row md:space-x-8  md:mt-0  ">
                 <li>
@@ -134,22 +148,22 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={styles.link}>
+                  <a href="#" className={stylesAll}>
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={styles.link}>
+                  <a href="#" className={stylesAll}>
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={styles.link}>
+                  <a href="#" className={stylesAll}>
                     Pricing
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={styles.link}>
+                  <a href="#" className={stylesAll}>
                     Contact
                   </a>
                 </li>
