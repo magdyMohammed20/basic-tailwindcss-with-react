@@ -8,7 +8,7 @@ const Home = () => {
           <h1 className={`${styles.header} text-slate-700 dark:text-white`}>
             Shaping a world with reimagination.
           </h1>
-          <p className={styles.para}>
+          <p className={`${styles.para} dark:text-gray-400 text-slate-500`}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             possimus aliquid fuga praesentium enim, commodi aut deleniti,
             perferendis dolores, officia quae tempora voluptatibus nobis dolore

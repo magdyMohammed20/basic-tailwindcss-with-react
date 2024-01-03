@@ -7,7 +7,7 @@
 }
 
 .para {
-  @apply mt-10 text-gray-400 text-sm lg:text-[15px] leading-7;
+  @apply mt-10  text-sm lg:text-[15px] leading-7;
 }
 
 .btn_container {
