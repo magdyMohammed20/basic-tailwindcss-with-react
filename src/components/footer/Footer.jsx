@@ -27,7 +27,7 @@ const Footer = () => {
           <ul className="list-disc">{socials}</ul>
         </div>
 
-        <div className="mt-12 md:mt-0">
+        <div className="mt-12 md:mt-6">
           <div className="dark:text-slate-500">
             <p>We change the way UI components librairies are used</p>
             <p className="my-6">Tailus Blocks ©</p>
