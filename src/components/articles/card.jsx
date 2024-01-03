@@ -13,11 +13,11 @@ const Card = ({ card: { src, title, desc } }) => {
       </a>
       <div className="p-5">
         <a href="#">
-          <h5 className="mb-2 text-lg md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-[11px] lg:text-lg md:text-[18px] font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
           </h5>
         </a>
-        <p className="my-5 font-normal text-gray-700 dark:text-gray-400 text-sm lg:text-sm">
+        <p className="my-3 lg:my-5 font-normal text-[13px] text-gray-700 dark:text-gray-400 text-sm lg:text-sm">
           {desc}
         </p>
         <a

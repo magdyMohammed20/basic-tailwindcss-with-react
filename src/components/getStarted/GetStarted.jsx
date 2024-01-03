@@ -6,7 +6,7 @@ import fourthImg from "../../assets/fourth.webp";
 import fifthImg from "../../assets/fifth.webp";
 const GetStarted = () => {
   return (
-    <div className="main-container py-24 px-32">
+    <div className="main-container py-8 lg:py-24 px-12 lg:px-32">
       <div className="flex items-center justify-center">
         <img src={firstImg} className="md:w-14 md:h-14 w-8 h-8 rounded-full" />
         <img
@@ -15,7 +15,7 @@ const GetStarted = () => {
         />
         <img
           src={fifthImg}
-          className="md:w-14 md:h-14 w-8 h-8 rounded-full scale-150 z-999"
+          className="md:w-14 md:h-14 w-8 h-8 rounded-full scale-150 z-20"
         />
         <img
           src={fourthImg}
