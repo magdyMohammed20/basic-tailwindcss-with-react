@@ -10,7 +10,7 @@ const Pie = () => {
       <div className={styles.grid_container}>
         <div className="px-12 lg:ps-8 lg:pe-0 ">
           <PieChart className={styles.svg} />
-          <h1 className={`${styles.header} dark:text-white`}>
+          <h1 className={`${styles.header} text-slate-800 dark:text-white`}>
             Nuxt development is carried out by passionate developers
           </h1>
           <p className={`${styles.text} dark:text-slate-400 `}>

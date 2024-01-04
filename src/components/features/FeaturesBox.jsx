@@ -8,7 +8,9 @@ const FeaturesBox = ({ title }) => {
       <h1 className={`${styles.title} dark:text-white text-slate-800`}>
         {title}
       </h1>
-      <p className={styles.desc}>Some text here</p>
+      <p className={`${styles.desc} dark:text-gray-400 text-slate-600`}>
+        Some text here
+      </p>
     </div>
   );
 };

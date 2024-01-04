@@ -7,7 +7,7 @@
 }
 
 .desc {
-  @apply text-[14px] text-gray-400 mt-4 font-normal;
+  @apply text-[14px]  mt-4 font-normal;
 }
 
 .inner_container {
