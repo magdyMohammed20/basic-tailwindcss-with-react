@@ -139,16 +139,30 @@ const Navbar = () => {
               <div className="relative  flex overflow-hidden items-center justify-center rounded-full w-[45px] h-[45px] transform transition-all bg-[#263353] ring-0 ring-gray-300 hover:ring-2 group-focus:ring-2 ring-opacity-30 duration-200 shadow-md">
                 <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
                   <div
-                    className={`bg-white h-[2px] w-7 transform transition-all duration-300 origin-left ${
-                      toggle ? "rotate-[42deg]" : "rotate-[0deg]"
+                    className={`bg-white h-[2px] w-7 transform transition-all duration-300 ${
+                      language == "en" ? "origin-left" : "origin-right"
+                    } ${
+                      toggle
+                        ? language == "en"
+                          ? "rotate-[42deg]"
+                          : "-rotate-[42deg]"
+                        : "rotate-[0deg]"
                     } `}></div>
                   <div
                     className={`bg-white h-[2px] w-1/2 rounded transform transition-all duration-300 ${
                       toggle && "-translate-x-10"
                     }`}></div>
                   <div
-                    className={`bg-white h-[2px] w-7 transform transition-all duration-300 origin-left ${
-                      toggle ? "-rotate-[42deg]" : "-rotate-[0deg]"
+                    className={`bg-white h-[2px] w-7 transform transition-all duration-300 
+                    
+                    ${language == "en" ? "origin-left" : "origin-right"}
+
+                    ${
+                      toggle
+                        ? language == "en"
+                          ? "-rotate-[42deg]"
+                          : "rotate-[42deg]"
+                        : "-rotate-[0deg]"
                     }`}></div>
                 </div>
               </div>
@@ -156,36 +170,60 @@ const Navbar = () => {
 
             <div
               className={`fixed transition-all duration-300 ease-in-out ${
-                !toggle ? "-left-full" : "left-0"
+                !toggle
+                  ? language == "en"
+                    ? "-left-full"
+                    : "-right-full"
+                  : language == "en"
+                  ? "left-0"
+                  : "right-0"
               } top-0 bottom-0 block md:hidden w-[300px] h-screen dark:bg-sideNav bg-white`}
               id="navbar-default">
               <ul className="font-medium flex flex-col md:p-0 md:flex-row md:space-x-8  md:mt-0  ">
                 <li>
                   <a
                     href="#"
-                    className="block py-4 px-3 text-white bg-indigo-600  md:bg-transparent md:text-blue-700 md:p-0 dark:text-gray-300 md:dark:text-blue-500"
+                    className={`${
+                      language == "ar" && "font-bold"
+                    } block py-4 px-3 text-white bg-indigo-600  md:bg-transparent md:text-blue-700 md:p-0 dark:text-gray-300 md:dark:text-blue-500`}
                     aria-current="page">
-                    Home
+                    {t("side_nav.Home")}
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={stylesAll}>
-                    About
+                  <a
+                    href="#"
+                    className={`${
+                      language == "ar" && "font-bold"
+                    } ${stylesAll}`}>
+                    {t("side_nav.About")}
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={stylesAll}>
-                    Services
+                  <a
+                    href="#"
+                    className={`${
+                      language == "ar" && "font-bold"
+                    } ${stylesAll}`}>
+                    {t("side_nav.Services")}
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={stylesAll}>
-                    Pricing
+                  <a
+                    href="#"
+                    className={`${
+                      language == "ar" && "font-bold"
+                    } ${stylesAll}`}>
+                    {t("side_nav.Pricing")}
                   </a>
                 </li>
                 <li>
-                  <a href="#" className={stylesAll}>
-                    Contact
+                  <a
+                    href="#"
+                    className={`${
+                      language == "ar" && "font-bold"
+                    } ${stylesAll}`}>
+                    {t("side_nav.Contact")}
                   </a>
                 </li>
               </ul>

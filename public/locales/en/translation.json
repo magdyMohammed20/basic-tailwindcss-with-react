@@ -10,6 +10,13 @@
     "solutions": "solutions",
     "reviews": "reviews"
   },
+  "side_nav": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Pricing": "Pricing",
+    "Contact": "Contact"
+  },
   "features": {
     "someText": "Some text here",
     "mostLoved": "The most loved",

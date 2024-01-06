@@ -10,6 +10,13 @@
     "solutions": "حلول",
     "reviews": "أراء"
   },
+  "side_nav": {
+    "Home": "الرئيسية",
+    "About": "عنا",
+    "Services": "الخدمات",
+    "Pricing": "التسعير",
+    "Contact": "التواصل"
+  },
   "features": {
     "someText": "بعض النصوص هنا",
     "mostLoved": "الأكثر حبا",
