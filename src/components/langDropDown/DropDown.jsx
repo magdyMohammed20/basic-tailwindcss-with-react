@@ -78,7 +78,7 @@ const Dropdown = () => {
       {isOpen && (
         <div
           id="dropdown"
-          className="z-[999] bg-white divide-y divide-gray-100 rounded-lg  w-44 dark:bg-gray-950 shadow-lg absolute top-full mt-1">
+          className="z-[999] bg-white divide-y divide-gray-100 rounded-lg  w-28 lg:w-44 dark:bg-gray-950 shadow-lg absolute top-full mt-1">
           <ul
             className="py-2 text-sm text-gray-700 dark:text-gray-200"
             aria-labelledby="dropdownDefaultButton">

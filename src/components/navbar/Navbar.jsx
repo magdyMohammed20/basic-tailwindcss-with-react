@@ -102,7 +102,9 @@ const Navbar = () => {
             </div>
           </label>
 
-          <Dropdown />
+          <div className="hidden lg:flex">
+            <Dropdown />
+          </div>
 
           <button
             className={`${styles.navBtn} ${
@@ -112,6 +114,9 @@ const Navbar = () => {
           </button>
 
           <div className="sm:hidden flex items-center gap-3">
+            <div className="flex lg:hidden">
+              <Dropdown />
+            </div>
             <label className="relative lg:hidden items-center  cursor-pointer select-none flex">
               <input
                 type="checkbox"
