@@ -1,0 +1,78 @@
+{
+  "main": {
+    "slogan": "كن معنا",
+    "header": "تشكيل عالم مع إعادة التصور.",
+    "description": "يمكن أن يكون هناك بعض السوائل الموجودة في الخارج، والسلع أو التخفيضات، وتفضيلات الألم، والوظيفة التي يمكن أن تكون مؤقتة، وآلام سهلة مواجهة آلام الألم. Dignissimos الذي يشبه ماكسيم فوجا. الحد الأدنى من voluptas esse كرامة العمل؟",
+    "getStarted": "أبـدأ",
+    "aboutUs": "عـنـا",
+    "premium": "مميز",
+    "features": "مميزات",
+    "solutions": "حلول",
+    "reviews": "أراء"
+  },
+  "features": {
+    "someText": "بعض النصوص هنا",
+    "mostLoved": "الأكثر حبا",
+    "fastest": "الأسرع في السوق",
+    "lowest": "بأقل سعر"
+  },
+  "tech_first": {
+    "title": "نهج التكنولوجيا أولا للمدفوعات والتمويل",
+    "description": "يمكن أن يكون هناك بعض السوائل الموجودة في الخارج، والسلع أو التخفيضات، وتفضيلات الألم، والوظيفة التي يمكن أن تكون مؤقتة، وآلام سهلة مواجهة آلام الألم. Dignissimos الذي يشبه ماكسيم فوجا. الحد الأدنى من voluptas esse كرامة العمل؟",
+    "cards": {
+      "domains": "منصة لتحويل النطاقات إلى مواقع المحتوى.",
+      "widgets": "منصة لإنشاء عناصر واجهة مستخدم ديناميكية لمواقع الويب.",
+      "SaaS": "منصة API SaaS التي توفر بدلة API لمساعدتك على الشحن بسرعة.",
+      "Chrome": "ملحق Chrome الذي يتيح لك إضافة ChatGPT على أي موقع ويب",
+      "read_more": "اقـرأ المزيـد"
+    }
+  },
+  "pie": {
+    "title": "يتم تنفيذ تطوير Nuxt بواسطة مطورين متحمسين",
+    "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, العمل الهارب في atque amet obcaecati? لا يوجد حد أدنى من الطموح، مما لا يرغب في الحصول على المزيد من الطموحات.",
+    "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, العمل الهارب في atque amet obcaecati? لا يوجد حد أدنى من الطموح، مما لا يرغب في الحصول على المزيد من الطموحات.",
+    "chat_any_time": "الدردشة في أي وقت",
+    "real_time_location": "الموقع في الوقت الحقيقي",
+    "desc": "لا يمكن أن يكون لدى Asperiores أي قدر من الملل."
+  },
+  "fans": {
+    "title": "لدينا بعض المشجعين",
+    "fan_name": "مجدى محمد",
+    "job": "مطور واجهات",
+    "first_desc": "Lorem ipsum dolor sit amet consectetur، adipisicing elit. المهندس المعماري لابوريوسام ديلينيتي aperiam ab veniam ليس من النوع الذي يرغب في العمل مؤقتًا. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum.",
+    "second_desc": "Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    "third_desc": "Lorem ipsum dolor sit amet consectetur، adipisicing elit. المهندس المعماري لابوريوسام ديلينيتي aperiam ab veniam ليس من النوع الذي يرغب في العمل مؤقتًا. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum. Laboriosam deleniti aperiam ab veniam sint not cumque quis tempore cupiditate. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum.",
+    "fourth_desc": "Lorem ipsum dolor sit amet consectetur، adipisicing elit. المهندس المعماري لابوريوسام ديلينيتي aperiam ab veniam ليس من النوع الذي يرغب في العمل مؤقتًا. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum.",
+    "fifth_desc": "Lorem ipsum dolor sit amet consectetur، adipisicing elit. المهندس المعماري لابوريوسام ديلينيتي aperiam ab veniam ليس من النوع الذي يرغب في العمل مؤقتًا. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum. Laboriosam deleniti aperiam ab veniam sint not cumque quis tempore cupiditate. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum. Laboriosam deleniti aperiam ab veniam sint not cumque quis tempore cupiditate. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum.laboriosam deleniti aperiam ab veniam sint Non cumque quis tempore cupiditate. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum.",
+    "six_desc": "Lorem ipsum dolor sit amet consectetur، adipisicing elit. المهندس المعماري لابوريوسام ديلينيتي aperiam ab veniam ليس من النوع الذي يرغب في العمل مؤقتًا. Sint libero voluptas veniam at rerehenderit, veritatis harum et rerum."
+  },
+  "getStarted": {
+    "title": "نبدأ الآن",
+    "desc": "كن جزءًا من ملايين الأشخاص حول العالم الذين يستخدمون Tailus في واجهات المستخدم الحديثة.",
+    "getStarted_btn": "ابـدأ",
+    "about_btn": "اعرف أكثر"
+  },
+  "articles": {
+    "title": "أحدث المقالات",
+    "desc": "Quam hic dolore cumque voluptate rerum Beatae et quae، tempore sunt، debitis dolorum officia aliquid explicabo؟ استثنائي، فولوبتات؟",
+    "card_title": "مقال 1",
+    "card_desc": "Voluptates harum aliquam totam، doloribus eum impedit atque! الصدغي..."
+  },
+  "links": {
+    "internal_links": {
+      "Home": "الرئيسية",
+      "About": "عنا",
+      "Guide": "الدليل",
+      "Blocks": "قوالب",
+      "Contact_us": "اتصل بنا",
+      "terms_of_use": "شروط الاستخدام"
+    },
+    "social_links": {},
+    "other_links": {
+      "title": "نقوم بتغيير طريقة استخدام مكتبات مكونات واجهة المستخدم",
+      "privacy": "سياسة الخصوصية",
+      "tos": "شروط الخدمة",
+      "need_help": "هل تحتاج لمساعدة ؟"
+    }
+  }
+}

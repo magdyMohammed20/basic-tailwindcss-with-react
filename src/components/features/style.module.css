@@ -1,5 +1,5 @@
 .box_style {
-  @apply mt-8 lg:mt-0 flex justify-center flex-col text-center lg:text-left;
+  @apply mt-8 lg:mt-0 flex justify-center flex-col;
 }
 
 .title {

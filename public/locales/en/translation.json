@@ -1,0 +1,78 @@
+{
+  "main": {
+    "slogan": "Be With Us",
+    "header": "Shaping a world with reimagination.",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus aliquid fuga praesentium enim, commodi aut deleniti, perferendis dolores, officia quae tempora voluptatibus nobis dolore facilis facere illum dolorum. Dignissimos qui similique maxime fuga. Minima voluptas esse dignissimos laborum modi?",
+    "getStarted": "Get Started",
+    "aboutUs": "About Us",
+    "premium": "premium",
+    "features": "features",
+    "solutions": "solutions",
+    "reviews": "reviews"
+  },
+  "features": {
+    "someText": "Some text here",
+    "mostLoved": "The most loved",
+    "fastest": "The fastest on the market",
+    "lowest": "The lowest price"
+  },
+  "tech_first": {
+    "title": "A technology-first approach to <br /> payments and finance",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.",
+    "cards": {
+      "domains": "Platform to convert Domains into Content websites.",
+      "widgets": "Platform to create dynamic widgets for websites.",
+      "SaaS": "API SaaS Platform that provides API Suit to help you ship fast.",
+      "Chrome": "Chrome Extension that lets you add ChatGPT on any website",
+      "read_more": "Read More"
+    }
+  },
+  "pie": {
+    "title": "Nuxt development is carried out by passionate developers",
+    "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.",
+    "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.",
+    "chat_any_time": "Chat Anytime",
+    "real_time_location": "Real Time Location",
+    "desc": "Asperiores nemo possimus nesciunt quam mollitia."
+  },
+  "fans": {
+    "title": "We have some fans.",
+    "fan_name": "Magdy Mohammed",
+    "job": "Front End Developer",
+    "first_desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    "second_desc": "Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    "third_desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum. laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    "fourth_desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    "fifth_desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum. laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum. laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    "six_desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum."
+  },
+  "getStarted": {
+    "title": "Get Started now",
+    "desc": "Be part of millions people around the world using tailus in modern User Interfaces.",
+    "getStarted_btn": "Get Started",
+    "about_btn": "More About"
+  },
+  "articles": {
+    "title": "Latest Articles",
+    "desc": "Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia aliquid explicabo? Excepturi, voluptate?",
+    "card_title": "First Article",
+    "card_desc": "Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus..."
+  },
+  "links": {
+    "internal_links": {
+      "Home": "Home",
+      "About": "About",
+      "Guide": "Guide",
+      "Blocks": "Blocks",
+      "Contact_us": "Contact_us",
+      "terms_of_use": "terms of use"
+    },
+    "social_links": {},
+    "other_links": {
+      "title": "We change the way UI components librairies are used",
+      "privacy": "privacy",
+      "tos": "Terms Of Service",
+      "need_help": "Need help?"
+    }
+  }
+}

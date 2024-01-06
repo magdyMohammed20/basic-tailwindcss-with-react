@@ -27,5 +27,5 @@
 }
 
 .span {
-  @apply text-sm lg:text-xl text-gray-300 mb-8 text-blue-400;
+  @apply text-sm lg:text-xl;
 }

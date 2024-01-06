@@ -6,12 +6,15 @@ import secondCard from "../../assets/second.webp";
 import thirdCard from "../../assets/third.webp";
 import fourthCard from "../../assets/fourth.webp";
 import fifthCard from "../../assets/fifth.webp";
+import useCustomTranslation from "../../hooks/translation";
 
 const Fans = () => {
+  const { t } = useCustomTranslation();
+
   const [firstCards] = useState([
     {
       id: 1,
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum. laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+      desc: "first_desc",
       img: (
         <img
           className="w-14 h-14 rounded-full shadow-lg"
@@ -22,7 +25,7 @@ const Fans = () => {
     },
     {
       id: 2,
-      desc: "Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+      desc: "second_desc",
       img: (
         <img
           className="w-14 h-14 rounded-full shadow-lg"
@@ -36,7 +39,7 @@ const Fans = () => {
   const [secondCards] = useState([
     {
       id: 3,
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum. laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+      desc: "third_desc",
       img: (
         <img
           className="w-14 h-14 rounded-full shadow-lg"
@@ -48,7 +51,7 @@ const Fans = () => {
 
     {
       id: 4,
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+      desc: "fourth_desc",
       img: (
         <img
           className="w-14 h-14 rounded-full shadow-lg"
@@ -61,7 +64,7 @@ const Fans = () => {
   const [thirdCards] = useState([
     {
       id: 5,
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum. laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum. laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+      desc: "fifth_desc",
       img: (
         <img
           className="w-14 h-14 rounded-full shadow-lg"
@@ -72,7 +75,7 @@ const Fans = () => {
     },
     {
       id: 6,
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+      desc: "six_desc",
       img: (
         <img
           className="w-14 h-14 rounded-full shadow-lg"
@@ -97,7 +100,7 @@ const Fans = () => {
   return (
     <div className="main-container py-24 px-8 lg:px-32">
       <h1 className={`${styles.header} dark:text-white text-slate-950`}>
-        We have some fans.
+        {t("fans.title")}
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-x-8 gap-y-6  ">

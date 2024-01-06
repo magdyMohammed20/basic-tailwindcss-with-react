@@ -1,7 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./nav.module.css";
+import "../../../node_modules/flag-icons/css/flag-icons.min.css";
+import Dropdown from "../langDropDown/DropDown";
+import useCustomTranslation from "../../hooks/translation";
 
 const Navbar = () => {
+  const { t, language } = useCustomTranslation();
   const [theme, setTheme] = useState(
     localStorage.getItem("theme")
       ? JSON.parse(localStorage.getItem("theme"))
@@ -64,7 +68,9 @@ const Navbar = () => {
           <a
             href="#"
             className={`${styles.logo} dark:text-white text-slate-900`}>
-            <span className={styles.logoText}>A</span>strolus
+            <span className={styles.logoText}>A</span>strolus{" "}
+            {/*  <span className="fi fi-eg"></span>
+            <span className="fi fi-us"></span> */}
           </a>
         </div>
         <nav className="flex items-center  gap-x-3">
@@ -73,8 +79,10 @@ const Navbar = () => {
               <li key={index}>
                 <a
                   href={`/${link}`}
-                  className={`${styles.navLink} dark:text-gray-200 dark:hover:text-white text-slate-900 hover:text-slate-900`}>
-                  {link}
+                  className={`${styles.navLink} ${
+                    language == "ar" && "font-semibold text-[18px]"
+                  } dark:text-gray-200 dark:hover:text-white text-slate-900 hover:text-slate-900`}>
+                  {t(`main.${link}`)}
                 </a>
               </li>
             ))}
@@ -93,7 +101,15 @@ const Navbar = () => {
               <span className="select-none">🌙</span>
             </div>
           </label>
-          <button className={styles.navBtn}>Get Started</button>
+
+          <Dropdown />
+
+          <button
+            className={`${styles.navBtn} ${
+              language == "ar" ? "text-[18px] px-7" : "px-5"
+            }`}>
+            {t("getStarted.getStarted_btn")}
+          </button>
 
           <div className="sm:hidden flex items-center gap-3">
             <label className="relative lg:hidden items-center  cursor-pointer select-none flex">

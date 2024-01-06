@@ -10,9 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flag-icons": "^7.1.0",
+    "i18next": "^23.7.16",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-http-backend": "^2.4.2",
     "lucide-react": "^0.303.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^14.0.0",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {

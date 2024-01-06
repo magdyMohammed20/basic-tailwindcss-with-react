@@ -18,6 +18,10 @@
   @apply -translate-x-3 group-hover:translate-x-0 transition-all duration-200 ease-linear opacity-0 group-hover:opacity-100;
 }
 
+.read_more_arrow_ar {
+  @apply translate-x-3 group-hover:translate-x-0 transition-all duration-200 ease-linear opacity-0 group-hover:opacity-100;
+}
+
 .img_style {
   @apply w-12 h-12 rounded-full;
 }

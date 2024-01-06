@@ -26,11 +26,11 @@ export const links = [
   },
   {
     id: 5,
-    name: "Contact Us",
+    name: "Contact_us",
   },
   {
     id: 6,
-    name: "Terms Of Use",
+    name: "terms_of_use",
   },
 ];
 
