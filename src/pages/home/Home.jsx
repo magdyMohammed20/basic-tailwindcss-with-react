@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import useCustomTranslation from "../../hooks/translation";
-
 import hero1 from "../../assets/hero1.svg";
+import hero from "../../assets/hero.svg";
 const Home = () => {
   const { t, language } = useCustomTranslation();
 
@@ -35,14 +35,7 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.img_container}>
-          <img
-            src={
-              language == "en"
-                ? "https://i.ibb.co/Z1zrVDm/undraw-React-re-g3ui-removebg-preview.png"
-                : hero1
-            }
-            className="h-full w-full"
-          />
+          <img src={language == "en" ? hero : hero1} />
         </div>
       </div>
     </div>
