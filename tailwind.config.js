@@ -32,11 +32,11 @@ export default {
         sideNav: '#091123'
       },
       screens: {
-        /* sm: '576px',
+        sm: '576px',
         md: '768px',
         lg: '992px',
         xl: '1200px',
-        '2xl' : '1400px' */
+        '2xl' : '1400px'
       }
     },
   },

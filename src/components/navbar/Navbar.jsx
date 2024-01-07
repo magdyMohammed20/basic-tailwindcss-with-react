@@ -38,7 +38,7 @@ const Navbar = () => {
         if (window.scrollY > 100) {
           //headerRef.current.style.backgroundColor = "#0a0f1c";
           headerRef.current.className =
-            "h-18 shadow-sm border-gray-400 shadow-slate-800  sticky w-full top-0 z-50 transition-all duration-500 linear dark:bg-mobColor bg-white";
+            "h-18 shadow-sm shadow-gray-400 border-gray-400 shadow-slate-800  sticky w-full top-0 z-50 transition-all duration-500 linear dark:bg-mobColor bg-white";
         }
         if (window.scrollY < 50) {
           headerRef.current.classList.remove(
